@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: #0f3057;
+    color: white;
+    text-align: center;
+}
+
+.main {
+    font-family: 'Staatliches', cursive;
+    font-size: 5rem;
+    text-shadow: 2px 0px 0px rgba(226, 0, 0, 1);
+    margin: 100px 0;
+}
+
+.btn {
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    margin: 0 10px;
+    border: 10px solid #00587a;
+    font-family: 'Staatliches', cursive;
+    font-size: 5rem;
+    cursor: pointer;
+    text-shadow: 3px 0px 0px rgba(255, 150, 150, 1);
+    background-color: #0d7377;
+    color: #32e0c4;
+}
+
+.Q {
+    background-image: url("images/tom1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.W {
+    background-image: url("images/tom2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.E {
+    background-image: url("images/tom3.png");
+    background-repeat: no-repeat;
+    background-size: 200px;
+}
+
+.R {
+    background-image: url("images/tom4.png");
+    background-repeat: no-repeat;
+    background-size: 200px;
+}
+
+.T {
+    background-image: url("images/snare.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.Y {
+    background-image: url("images/kick.png");
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+
+.U {
+    background-image: url("images/crash.png");
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+
+.pressed {
+    box-shadow: 0 3px 4px 0 #DBEDF3;
+    opacity: 0.5;
+}
